@@ -1,3 +1,5 @@
+import "../../../public/icons";
+
 export default () => /*html*/ `
 <div class="postContainer">
 
