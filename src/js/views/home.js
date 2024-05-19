@@ -1,8 +1,6 @@
 export default () => /*html*/ `
 <div class="postContainer">
-
     <img src='./img/land.jpg'/>
-   
  </div>      
 `;
 
