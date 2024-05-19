@@ -3,7 +3,7 @@ export default () => /*html*/ `
 
     <div class='posts'>
           <div class='post'>
-               <img class='postImg' src='./public/784a0ab95cd5be67b447f5bfbc65d94f.jpg' />
+               <img class='postImg' src='public/784a0ab95cd5be67b447f5bfbc65d94f.jpg' />
                <div class='postComment'>
                <img src='./public/icons/Union.png'/>
                   <p style='display: inline; padding: 5px; color: #5095EC'>Jason Anderson</p>commented:
