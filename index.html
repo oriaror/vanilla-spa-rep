@@ -47,7 +47,7 @@
 
     <main id="app"></main>
     <timer-comp style="display: none;"></timer-comp>
-    <script defer type="module" src="./src/js/main.js"></script>
+    <script async type="module" src="./src/js/main.js"></script>
     <script defer>let t = document.querySelector("timer-comp");
         t.started = new Date();
         t.update = (ms) => (sessionStorage.setItem('timer', t.innerHTML = new Date(ms).toISOString().split(/T|\./)[1]));
