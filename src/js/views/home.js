@@ -1,8 +1,8 @@
-export default () => /*html*/ `
+export default () => `
 <div class="postContainer">
 <div class='posts'>
 <div class='post'>
-     <img class='postImg' src="img/land.jpg" alt='ss' />
+     <img class='postImg' src="./src/img/land.jpg" alt='ss' />
      <div class='postComment'>
      <img src='src/img/icons/union.png' alt='ss'/>
         <p style='display: inline; padding: 5px; color: #5095EC'>Jason Anderson</p>commented:
