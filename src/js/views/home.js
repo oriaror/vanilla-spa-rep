@@ -1,5 +1,3 @@
-import "../components/counter.js";
-
 export default () => /*html*/ `
 <div class="postContainer">
 
