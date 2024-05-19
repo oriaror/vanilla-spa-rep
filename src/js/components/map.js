@@ -3,7 +3,6 @@ class Map extends HTMLElement {
     super();
 
     this.innerHTML = `
-    <img src='src/img/ava.PNG'/>
     <div id='map' style='width=400px; height:400px;'></div>
     `;
 
