@@ -18,6 +18,7 @@ class Loader extends HTMLElement {
   changeMap(){
     const map = document.querySelector('#map').classList.remove('map')
     const map1 = document.querySelector('#map').classList.add('block')
+    console.log(123)
   }
 }
 
