@@ -30,4 +30,3 @@ window.addEventListener("click", (e) => {
 
 window.addEventListener("popstate", router);
 window.addEventListener("DOMContentLoaded", router);
-
