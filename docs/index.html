@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    
+  <script type="module" crossorigin src="/assets/index.79e17b82.js"></script>
+    <link rel="stylesheet" href="/assets/index.be674f47.css">
+  </head>
+<body>
+    <div class="nav">
+        <div class="tempnav">
+            <img src="/icons/back.png" alt="2"><a href="#">User pages - Profile</a>
+        </div>
+        <div class="tempnav secondNav">
+            <div class="menu">
+            <img src="/icons/statistic.png" alt="2" style="display: block" />
+            <a href="#">Statistics</a>
+            </div>
+            <div class="menu">
+            <img src="/icons/invoices.png" alt="2" style="display: block" />
+            <a href="#">Invoices</a>
+        </div>
+        <div class="menu">
+            <img src="/icons/schedule.png" alt="2" style="display: block" />
+            <a href="#">Schedule</a>
+        </div>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="secondNav">
+            <img src="/icons/menu.png" alt="2"><a href="/" data-link>Activity</a>
+            <img src="/icons/map.png" alt="2"><a href="/map" data-link>Map</a>
+            <img src="/icons/time.png" alt="2"><a href="/time" data-link>Time</a>
+        </div>
+        <div class="secondNav navSec">
+        <img src="/icons/notes.png" alt="2"><a href="#" data-link>Notes</a> 
+        <img src="/icons/friends.png" alt="2"><a href="#" data-link>Friends</a>
+        <img src="/icons/photos.png" alt="2"><a href="#" data-link>Photos</a>
+        <img src="/icons/settings.png" alt="2">
+        <img src="/icons/down.png" alt="2"/>   
+    </div>
+    </nav>
+
+    <main id="app"></main>
+    <timer-comp style="display: none;"></timer-comp>
+    
+    <script defer>let t = document.querySelector("timer-comp");
+        t.started = new Date();
+        t.update = (ms) => (sessionStorage.setItem('timer', t.innerHTML = new Date(ms).toISOString().split(/T|\./)[1]));
+        setInterval(() => t.update(new Date() - t.started), 500);
+        </script>
+        <script  defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js" ></script>
+</body>
+</html>
+
+
+
+ 

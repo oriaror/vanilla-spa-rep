@@ -10,7 +10,6 @@ export default () => `
         <loader-comp></loader-comp>
         <map-comp></map-comp>
         </div>
-    
 </div>
 `;
 
