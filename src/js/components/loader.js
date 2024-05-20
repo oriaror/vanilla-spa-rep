@@ -7,7 +7,7 @@ class Loader extends HTMLElement {
     setTimeout(() => {
       this.changeLoader()
     }, 1000);
-    
+
     setTimeout(() => {
       this.changeMap()
     }, 1500);
@@ -16,7 +16,8 @@ class Loader extends HTMLElement {
     const temp = document.querySelector('.loader').classList.add('none')    
 }
   changeMap(){
-    const map = document.querySelector('#map').classList.remove('map').classList.add('block')
+    const map = document.querySelector('#map').classList.remove('map')
+    const map1 = document.querySelector('#map').classList.add('block')
   }
 }
 
