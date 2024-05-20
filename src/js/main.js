@@ -3,9 +3,9 @@ import home from "./views/home.js";
 import map from "./views/map.js";
 
 const routes = {
-  "/": { title: "Home", render: home },
-  "/map": { title: "Map", render: map },
-  "/time": { title: "Time", render: timer },
+  "/vanilla-spa-rep/": { title: "Home", render: home },
+  "/vanilla-spa-rep/map": { title: "Map", render: map },
+  "/vanilla-spa-rep/time": { title: "Time", render: timer },
 };
 
 function router() {
