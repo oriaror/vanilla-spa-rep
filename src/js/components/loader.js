@@ -2,9 +2,7 @@ class Loader extends HTMLElement {
   constructor(){
     super()
     this.innerHTML = `
-      <span class='loader' style='display: flex;
-      justify-content: center;
-      align-items: center;'></span>
+      <span class='loader'></span>
     ` 
     setTimeout(() => {
       this.changeLoader()
