@@ -26,7 +26,7 @@ class Profile extends HTMLElement {
     <div class='profileWrapper'>
     <div class='wrapper'>
     <div class='user'>
-    <img class='ava' src="/vanilla-spa-rep/ava.png" alt='ss' />
+    <img class='ava' src="/vanilla-spa-rep/ava.${'png'}" alt='ss' />
     <div class='userInfo'>
       <p>Hanna Dorman</p>
       <p style='font-size: 14px; color: #8F8F8F;'>UX/UI designer</p>
