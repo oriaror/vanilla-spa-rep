@@ -3,7 +3,7 @@ class Map extends HTMLElement {
     super();
 
     this.innerHTML = `
-    <div id='map' style='width=400px; height:400px;'></div>
+    <div id='map' class='map' style='width=400px; height:400px;'></div>
     `;
 
     google.maps.event.addDomListener(window, "load", init);
